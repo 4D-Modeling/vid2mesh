@@ -1,0 +1,1139 @@
+Start testing: Oct 28 01:39 CDT
+----------------------------------------------------------
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_Camera_IO
+1/71 Testing: openMVG_test_Camera_IO
+1/71 Test: openMVG_test_Camera_IO
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/cameras
+"openMVG_test_Camera_IO" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_Camera_IO" end time: Oct 28 01:39 CDT
+"openMVG_test_Camera_IO" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_Camera_Pinhole
+2/71 Testing: openMVG_test_Camera_Pinhole
+2/71 Test: openMVG_test_Camera_Pinhole
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/cameras
+"openMVG_test_Camera_Pinhole" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_Camera_Pinhole" end time: Oct 28 01:39 CDT
+"openMVG_test_Camera_Pinhole" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_Camera_Pinhole_Radial
+3/71 Testing: openMVG_test_Camera_Pinhole_Radial
+3/71 Test: openMVG_test_Camera_Pinhole_Radial
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/cameras
+"openMVG_test_Camera_Pinhole_Radial" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_Camera_Pinhole_Radial" end time: Oct 28 01:39 CDT
+"openMVG_test_Camera_Pinhole_Radial" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_Camera_Pinhole_Brown
+4/71 Testing: openMVG_test_Camera_Pinhole_Brown
+4/71 Test: openMVG_test_Camera_Pinhole_Brown
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/cameras
+"openMVG_test_Camera_Pinhole_Brown" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_Camera_Pinhole_Brown" end time: Oct 28 01:39 CDT
+"openMVG_test_Camera_Pinhole_Brown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_Camera_Pinhole_Fisheye
+5/71 Testing: openMVG_test_Camera_Pinhole_Fisheye
+5/71 Test: openMVG_test_Camera_Pinhole_Fisheye
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/cameras
+"openMVG_test_Camera_Pinhole_Fisheye" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_Camera_Pinhole_Fisheye" end time: Oct 28 01:39 CDT
+"openMVG_test_Camera_Pinhole_Fisheye" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_Camera_Spherical
+6/71 Testing: openMVG_test_Camera_Spherical
+6/71 Test: openMVG_test_Camera_Spherical
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/cameras
+"openMVG_test_Camera_Spherical" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_Camera_Spherical" end time: Oct 28 01:39 CDT
+"openMVG_test_Camera_Spherical" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_Camera_Subset_Parametrization
+7/71 Testing: openMVG_test_Camera_Subset_Parametrization
+7/71 Test: openMVG_test_Camera_Subset_Parametrization
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/cameras
+"openMVG_test_Camera_Subset_Parametrization" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_Camera_Subset_Parametrization" end time: Oct 28 01:39 CDT
+"openMVG_test_Camera_Subset_Parametrization" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_exif_IO
+8/71 Testing: openMVG_test_exif_IO
+8/71 Test: openMVG_test_exif_IO
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/exif
+"openMVG_test_exif_IO" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_exif_IO" end time: Oct 28 01:39 CDT
+"openMVG_test_exif_IO" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_ParseDatabase
+9/71 Testing: openMVG_test_ParseDatabase
+9/71 Test: openMVG_test_ParseDatabase
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/exif/sensor_width_database
+"openMVG_test_ParseDatabase" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_ParseDatabase" end time: Oct 28 01:39 CDT
+"openMVG_test_ParseDatabase" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_features
+10/71 Testing: openMVG_test_features
+10/71 Test: openMVG_test_features
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/features
+"openMVG_test_features" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_features" end time: Oct 28 01:39 CDT
+"openMVG_test_features" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_image_describer
+11/71 Testing: openMVG_test_image_describer
+11/71 Test: openMVG_test_image_describer
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/features
+"openMVG_test_image_describer" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_image_describer" end time: Oct 28 01:39 CDT
+"openMVG_test_image_describer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_mser
+12/71 Testing: openMVG_test_mser
+12/71 Test: openMVG_test_mser
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/features/mser
+"openMVG_test_mser" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_mser" end time: Oct 28 01:39 CDT
+"openMVG_test_mser" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_tbmr
+13/71 Testing: openMVG_test_tbmr
+13/71 Test: openMVG_test_tbmr
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/features/tbmr
+"openMVG_test_tbmr" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_tbmr" end time: Oct 28 01:39 CDT
+"openMVG_test_tbmr" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_sift
+14/71 Testing: openMVG_test_sift
+14/71 Test: openMVG_test_sift
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/features/sift
+"openMVG_test_sift" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_sift" end time: Oct 28 01:39 CDT
+"openMVG_test_sift" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_graph_test_connectedComponent
+15/71 Testing: openMVG_graph_test_connectedComponent
+15/71 Test: openMVG_graph_test_connectedComponent
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/graph
+"openMVG_graph_test_connectedComponent" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_graph_test_connectedComponent" end time: Oct 28 01:39 CDT
+"openMVG_graph_test_connectedComponent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_graph_test_triplet_finder
+16/71 Testing: openMVG_graph_test_triplet_finder
+16/71 Test: openMVG_graph_test_triplet_finder
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/graph
+"openMVG_graph_test_triplet_finder" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_graph_test_triplet_finder" end time: Oct 28 01:39 CDT
+"openMVG_graph_test_triplet_finder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_image
+17/71 Testing: openMVG_test_image
+17/71 Test: openMVG_test_image
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/image
+"openMVG_test_image" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_image" end time: Oct 28 01:39 CDT
+"openMVG_test_image" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_image_drawing
+18/71 Testing: openMVG_test_image_drawing
+18/71 Test: openMVG_test_image_drawing
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/image
+"openMVG_test_image_drawing" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_image_drawing" end time: Oct 28 01:39 CDT
+"openMVG_test_image_drawing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_image_io
+19/71 Testing: openMVG_test_image_io
+19/71 Test: openMVG_test_image_io
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/image
+"openMVG_test_image_io" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_image_io" end time: Oct 28 01:39 CDT
+"openMVG_test_image_io" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_image_filtering
+20/71 Testing: openMVG_test_image_filtering
+20/71 Test: openMVG_test_image_filtering
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/image
+"openMVG_test_image_filtering" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_image_filtering" end time: Oct 28 01:39 CDT
+"openMVG_test_image_filtering" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_image_resampling
+21/71 Testing: openMVG_test_image_resampling
+21/71 Test: openMVG_test_image_resampling
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/image
+"openMVG_test_image_resampling" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_image_resampling" end time: Oct 28 01:39 CDT
+"openMVG_test_image_resampling" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_linearProgramming
+22/71 Testing: openMVG_test_linearProgramming
+22/71 Test: openMVG_test_linearProgramming
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/linearProgramming
+"openMVG_test_linearProgramming" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_linearProgramming" end time: Oct 28 01:39 CDT
+"openMVG_test_linearProgramming" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_lInftyCV_test_triangulation
+23/71 Testing: openMVG_lInftyCV_test_triangulation
+23/71 Test: openMVG_lInftyCV_test_triangulation
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/linearProgramming/lInfinityCV
+"openMVG_lInftyCV_test_triangulation" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_lInftyCV_test_triangulation" end time: Oct 28 01:39 CDT
+"openMVG_lInftyCV_test_triangulation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_lInftyCV_test_resection
+24/71 Testing: openMVG_lInftyCV_test_resection
+24/71 Test: openMVG_lInftyCV_test_resection
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/linearProgramming/lInfinityCV
+"openMVG_lInftyCV_test_resection" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_lInftyCV_test_resection" end time: Oct 28 01:39 CDT
+"openMVG_lInftyCV_test_resection" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_lInftyCV_test_resection_robust
+25/71 Testing: openMVG_lInftyCV_test_resection_robust
+25/71 Test: openMVG_lInftyCV_test_resection_robust
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/linearProgramming/lInfinityCV
+"openMVG_lInftyCV_test_resection_robust" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_lInftyCV_test_resection_robust" end time: Oct 28 01:39 CDT
+"openMVG_lInftyCV_test_resection_robust" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_lInftyCV_test_global_translations_fromTriplets
+26/71 Testing: openMVG_lInftyCV_test_global_translations_fromTriplets
+26/71 Test: openMVG_lInftyCV_test_global_translations_fromTriplets
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/linearProgramming/lInfinityCV
+"openMVG_lInftyCV_test_global_translations_fromTriplets" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_lInftyCV_test_global_translations_fromTriplets" end time: Oct 28 01:39 CDT
+"openMVG_lInftyCV_test_global_translations_fromTriplets" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_lInftyCV_test_global_translations_fromTij
+27/71 Testing: openMVG_lInftyCV_test_global_translations_fromTij
+27/71 Test: openMVG_lInftyCV_test_global_translations_fromTij
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/linearProgramming/lInfinityCV
+"openMVG_lInftyCV_test_global_translations_fromTij" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_lInftyCV_test_global_translations_fromTij" end time: Oct 28 01:39 CDT
+"openMVG_lInftyCV_test_global_translations_fromTij" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_lInftyCV_test_tijsAndXis
+28/71 Testing: openMVG_lInftyCV_test_tijsAndXis
+28/71 Test: openMVG_lInftyCV_test_tijsAndXis
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/linearProgramming/lInfinityCV
+"openMVG_lInftyCV_test_tijsAndXis" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_lInftyCV_test_tijsAndXis" end time: Oct 28 01:39 CDT
+"openMVG_lInftyCV_test_tijsAndXis" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_lInftyCV_test_tijsAndXis_outlier
+29/71 Testing: openMVG_lInftyCV_test_tijsAndXis_outlier
+29/71 Test: openMVG_lInftyCV_test_tijsAndXis_outlier
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/linearProgramming/lInfinityCV
+"openMVG_lInftyCV_test_tijsAndXis_outlier" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_lInftyCV_test_tijsAndXis_outlier" end time: Oct 28 01:39 CDT
+"openMVG_lInftyCV_test_tijsAndXis_outlier" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_geodesy_test_geodesy
+30/71 Testing: openMVG_geodesy_test_geodesy
+30/71 Test: openMVG_geodesy_test_geodesy
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/geodesy
+"openMVG_geodesy_test_geodesy" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_geodesy_test_geodesy" end time: Oct 28 01:39 CDT
+"openMVG_geodesy_test_geodesy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_rigid_transformation3D_srt
+31/71 Testing: openMVG_test_rigid_transformation3D_srt
+31/71 Test: openMVG_test_rigid_transformation3D_srt
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/geometry
+"openMVG_test_rigid_transformation3D_srt" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_rigid_transformation3D_srt" end time: Oct 28 01:39 CDT
+"openMVG_test_rigid_transformation3D_srt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_half_space_intersection
+32/71 Testing: openMVG_test_half_space_intersection
+32/71 Test: openMVG_test_half_space_intersection
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/geometry
+"openMVG_test_half_space_intersection" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_half_space_intersection" end time: Oct 28 01:39 CDT
+"openMVG_test_half_space_intersection" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_frustum_intersection
+33/71 Testing: openMVG_test_frustum_intersection
+33/71 Test: openMVG_test_frustum_intersection
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/geometry
+"openMVG_test_frustum_intersection" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_frustum_intersection" end time: Oct 28 01:39 CDT
+"openMVG_test_frustum_intersection" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_frustum_box_intersection
+34/71 Testing: openMVG_test_frustum_box_intersection
+34/71 Test: openMVG_test_frustum_box_intersection
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/geometry
+"openMVG_test_frustum_box_intersection" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_frustum_box_intersection" end time: Oct 28 01:39 CDT
+"openMVG_test_frustum_box_intersection" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_matching
+35/71 Testing: openMVG_test_matching
+35/71 Test: openMVG_test_matching
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/matching
+"openMVG_test_matching" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_matching" end time: Oct 28 01:39 CDT
+"openMVG_test_matching" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_matching_filters
+36/71 Testing: openMVG_test_matching_filters
+36/71 Test: openMVG_test_matching_filters
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/matching
+"openMVG_test_matching_filters" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_matching_filters" end time: Oct 28 01:39 CDT
+"openMVG_test_matching_filters" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_indMatch
+37/71 Testing: openMVG_test_indMatch
+37/71 Test: openMVG_test_indMatch
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/matching
+"openMVG_test_indMatch" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_indMatch" end time: Oct 28 01:39 CDT
+"openMVG_test_indMatch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_metric
+38/71 Testing: openMVG_test_metric
+38/71 Test: openMVG_test_metric
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/matching
+"openMVG_test_metric" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_metric" end time: Oct 28 01:39 CDT
+"openMVG_test_metric" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_Pair_Builder
+39/71 Testing: openMVG_test_Pair_Builder
+39/71 Test: openMVG_test_Pair_Builder
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/matching_image_collection
+"openMVG_test_Pair_Builder" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_Pair_Builder" end time: Oct 28 01:39 CDT
+"openMVG_test_Pair_Builder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_triangulation
+40/71 Testing: openMVG_test_triangulation
+40/71 Test: openMVG_test_triangulation
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/multiview
+"openMVG_test_triangulation" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_triangulation" end time: Oct 28 01:39 CDT
+"openMVG_test_triangulation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_triangulation_nview
+41/71 Testing: openMVG_test_triangulation_nview
+41/71 Test: openMVG_test_triangulation_nview
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/multiview
+"openMVG_test_triangulation_nview" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_triangulation_nview" end time: Oct 28 01:39 CDT
+"openMVG_test_triangulation_nview" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_solver_affine
+42/71 Testing: openMVG_test_solver_affine
+42/71 Test: openMVG_test_solver_affine
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/multiview
+"openMVG_test_solver_affine" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_solver_affine" end time: Oct 28 01:39 CDT
+"openMVG_test_solver_affine" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_solver_fundamental_kernel
+43/71 Testing: openMVG_test_solver_fundamental_kernel
+43/71 Test: openMVG_test_solver_fundamental_kernel
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/multiview
+"openMVG_test_solver_fundamental_kernel" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_solver_fundamental_kernel" end time: Oct 28 01:39 CDT
+"openMVG_test_solver_fundamental_kernel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_solver_essential_kernel
+44/71 Testing: openMVG_test_solver_essential_kernel
+44/71 Test: openMVG_test_solver_essential_kernel
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/multiview
+"openMVG_test_solver_essential_kernel" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_solver_essential_kernel" end time: Oct 28 01:39 CDT
+"openMVG_test_solver_essential_kernel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_solver_homography_kernel
+45/71 Testing: openMVG_test_solver_homography_kernel
+45/71 Test: openMVG_test_solver_homography_kernel
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/multiview
+"openMVG_test_solver_homography_kernel" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_solver_homography_kernel" end time: Oct 28 01:39 CDT
+"openMVG_test_solver_homography_kernel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_solver_essential_five_point
+46/71 Testing: openMVG_test_solver_essential_five_point
+46/71 Test: openMVG_test_solver_essential_five_point
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/multiview
+"openMVG_test_solver_essential_five_point" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_solver_essential_five_point" end time: Oct 28 01:39 CDT
+"openMVG_test_solver_essential_five_point" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_solver_resection_kernel
+47/71 Testing: openMVG_test_solver_resection_kernel
+47/71 Test: openMVG_test_solver_resection_kernel
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/multiview
+"openMVG_test_solver_resection_kernel" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_solver_resection_kernel" end time: Oct 28 01:39 CDT
+"openMVG_test_solver_resection_kernel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_solver_translation_knownRotation_kernel
+48/71 Testing: openMVG_test_solver_translation_knownRotation_kernel
+48/71 Test: openMVG_test_solver_translation_knownRotation_kernel
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/multiview
+"openMVG_test_solver_translation_knownRotation_kernel" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_solver_translation_knownRotation_kernel" end time: Oct 28 01:39 CDT
+"openMVG_test_solver_translation_knownRotation_kernel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_rotation_averaging
+49/71 Testing: openMVG_test_rotation_averaging
+49/71 Test: openMVG_test_rotation_averaging
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/multiview
+"openMVG_test_rotation_averaging" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_rotation_averaging" end time: Oct 28 01:39 CDT
+"openMVG_test_rotation_averaging" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_translation_averaging
+50/71 Testing: openMVG_test_translation_averaging
+50/71 Test: openMVG_test_translation_averaging
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/multiview
+"openMVG_test_translation_averaging" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_translation_averaging" end time: Oct 28 01:39 CDT
+"openMVG_test_translation_averaging" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_extract_columns
+51/71 Testing: openMVG_test_extract_columns
+51/71 Test: openMVG_test_extract_columns
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/numeric
+"openMVG_test_extract_columns" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_extract_columns" end time: Oct 28 01:39 CDT
+"openMVG_test_extract_columns" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_numeric
+52/71 Testing: openMVG_test_numeric
+52/71 Test: openMVG_test_numeric
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/numeric
+"openMVG_test_numeric" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_numeric" end time: Oct 28 01:39 CDT
+"openMVG_test_numeric" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_poly
+53/71 Testing: openMVG_test_poly
+53/71 Test: openMVG_test_poly
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/numeric
+"openMVG_test_poly" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_poly" end time: Oct 28 01:39 CDT
+"openMVG_test_poly" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_lm
+54/71 Testing: openMVG_test_lm
+54/71 Test: openMVG_test_lm
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/numeric
+"openMVG_test_lm" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_lm" end time: Oct 28 01:39 CDT
+"openMVG_test_lm" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_l1_solver
+55/71 Testing: openMVG_test_l1_solver
+55/71 Test: openMVG_test_l1_solver
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/numeric
+"openMVG_test_l1_solver" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_l1_solver" end time: Oct 28 01:39 CDT
+"openMVG_test_l1_solver" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_rand_sampling
+56/71 Testing: openMVG_test_rand_sampling
+56/71 Test: openMVG_test_rand_sampling
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/robust_estimation
+"openMVG_test_rand_sampling" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_rand_sampling" end time: Oct 28 01:39 CDT
+"openMVG_test_rand_sampling" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_robust_estimator_lineKernel
+57/71 Testing: openMVG_test_robust_estimator_lineKernel
+57/71 Test: openMVG_test_robust_estimator_lineKernel
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/robust_estimation
+"openMVG_test_robust_estimator_lineKernel" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_robust_estimator_lineKernel" end time: Oct 28 01:39 CDT
+"openMVG_test_robust_estimator_lineKernel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_robust_estimator_MaxConsensus
+58/71 Testing: openMVG_test_robust_estimator_MaxConsensus
+58/71 Test: openMVG_test_robust_estimator_MaxConsensus
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/robust_estimation
+"openMVG_test_robust_estimator_MaxConsensus" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_robust_estimator_MaxConsensus" end time: Oct 28 01:39 CDT
+"openMVG_test_robust_estimator_MaxConsensus" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_robust_estimator_Ransac
+59/71 Testing: openMVG_test_robust_estimator_Ransac
+59/71 Test: openMVG_test_robust_estimator_Ransac
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/robust_estimation
+"openMVG_test_robust_estimator_Ransac" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_robust_estimator_Ransac" end time: Oct 28 01:39 CDT
+"openMVG_test_robust_estimator_Ransac" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_robust_estimator_ACRansac
+60/71 Testing: openMVG_test_robust_estimator_ACRansac
+60/71 Test: openMVG_test_robust_estimator_ACRansac
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/robust_estimation
+"openMVG_test_robust_estimator_ACRansac" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_robust_estimator_ACRansac" end time: Oct 28 01:39 CDT
+"openMVG_test_robust_estimator_ACRansac" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_tracks
+61/71 Testing: openMVG_test_tracks
+61/71 Test: openMVG_test_tracks
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/tracks
+"openMVG_test_tracks" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_tracks" end time: Oct 28 01:39 CDT
+"openMVG_test_tracks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_global_quantile_gain_offset_alignment
+62/71 Testing: openMVG_test_global_quantile_gain_offset_alignment
+62/71 Test: openMVG_test_global_quantile_gain_offset_alignment
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/color_harmonization
+"openMVG_test_global_quantile_gain_offset_alignment" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_global_quantile_gain_offset_alignment" end time: Oct 28 01:39 CDT
+"openMVG_test_global_quantile_gain_offset_alignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_progress
+63/71 Testing: openMVG_test_progress
+63/71 Test: openMVG_test_progress
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/system
+"openMVG_test_progress" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_progress" end time: Oct 28 01:39 CDT
+"openMVG_test_progress" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_sfm_data_io
+64/71 Testing: openMVG_test_sfm_data_io
+64/71 Test: openMVG_test_sfm_data_io
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/sfm
+"openMVG_test_sfm_data_io" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_sfm_data_io" end time: Oct 28 01:39 CDT
+"openMVG_test_sfm_data_io" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_sfm_data_BA
+65/71 Testing: openMVG_test_sfm_data_BA
+65/71 Test: openMVG_test_sfm_data_BA
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/sfm
+"openMVG_test_sfm_data_BA" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_sfm_data_BA" end time: Oct 28 01:39 CDT
+"openMVG_test_sfm_data_BA" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_sfm_data_utils
+66/71 Testing: openMVG_test_sfm_data_utils
+66/71 Test: openMVG_test_sfm_data_utils
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/sfm
+"openMVG_test_sfm_data_utils" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_sfm_data_utils" end time: Oct 28 01:39 CDT
+"openMVG_test_sfm_data_utils" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_sfm_data_filters
+67/71 Testing: openMVG_test_sfm_data_filters
+67/71 Test: openMVG_test_sfm_data_filters
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/sfm
+"openMVG_test_sfm_data_filters" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_sfm_data_filters" end time: Oct 28 01:39 CDT
+"openMVG_test_sfm_data_filters" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_sequential_SfM
+68/71 Testing: openMVG_test_sequential_SfM
+68/71 Test: openMVG_test_sequential_SfM
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/sfm/pipelines/sequential
+"openMVG_test_sequential_SfM" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_sequential_SfM" end time: Oct 28 01:39 CDT
+"openMVG_test_sequential_SfM" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_global_SfM
+69/71 Testing: openMVG_test_global_SfM
+69/71 Test: openMVG_test_global_SfM
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/sfm/pipelines/global
+"openMVG_test_global_SfM" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_global_SfM" end time: Oct 28 01:39 CDT
+"openMVG_test_global_SfM" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_split
+70/71 Testing: openMVG_test_split
+70/71 Test: openMVG_test_split
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/stl
+"openMVG_test_split" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_split" end time: Oct 28 01:39 CDT
+"openMVG_test_split" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/test/Documents/openMVG_Build/Linux-i686-RELEASE/openMVG_test_dynamic_bitset
+71/71 Testing: openMVG_test_dynamic_bitset
+71/71 Test: openMVG_test_dynamic_bitset
+Command: ""
+Directory: /home/test/Documents/openMVG_Build/openMVG/stl
+"openMVG_test_dynamic_bitset" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"openMVG_test_dynamic_bitset" end time: Oct 28 01:39 CDT
+"openMVG_test_dynamic_bitset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 28 01:39 CDT

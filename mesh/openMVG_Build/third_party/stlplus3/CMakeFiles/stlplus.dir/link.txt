@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../Linux-i686-RELEASE/libstlplus.a  CMakeFiles/stlplus.dir/filesystemSimplified/file_system.cpp.o CMakeFiles/stlplus.dir/filesystemSimplified/wildcard.cpp.o CMakeFiles/stlplus.dir/filesystemSimplified/portability_fixes.cpp.o
+/usr/bin/ranlib ../../Linux-i686-RELEASE/libstlplus.a
