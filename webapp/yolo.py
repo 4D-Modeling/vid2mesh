@@ -11,7 +11,7 @@ def main():
 
 @application.route("/test")
 def test():
-    return "Test Page"
+    
 
 # run the app.
 if __name__ == "__main__":
