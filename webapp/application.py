@@ -1,4 +1,5 @@
 from flask import Flask
+from flask import render_template
 
 # EB looks for an 'application' callable by default.
 application = Flask(__name__)
@@ -6,8 +7,8 @@ application = Flask(__name__)
 
 @application.route("/")
 def main():
-    return "Main Page"
-    #return render_template("mainpage.html", name=name)
+    #return "Main Page"
+    return render_template("mainpage.html")
 
 @application.route("/test")
 def test():
