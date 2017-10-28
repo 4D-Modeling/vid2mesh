@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../Linux-i686-RELEASE/libopenMVG_linearProgramming.a  CMakeFiles/openMVG_linearProgramming.dir/linearProgrammingOSI_X.cpp.o
+/usr/bin/ranlib ../../Linux-i686-RELEASE/libopenMVG_linearProgramming.a
