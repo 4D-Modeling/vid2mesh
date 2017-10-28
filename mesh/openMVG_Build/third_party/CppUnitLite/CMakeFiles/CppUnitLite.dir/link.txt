@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../Linux-i686-RELEASE/libCppUnitLite.a  CMakeFiles/CppUnitLite.dir/TestRegistry.cpp.o CMakeFiles/CppUnitLite.dir/TestResult.cpp.o CMakeFiles/CppUnitLite.dir/Test.cpp.o CMakeFiles/CppUnitLite.dir/SimpleString.cpp.o CMakeFiles/CppUnitLite.dir/Failure.cpp.o
-/usr/bin/ranlib ../../Linux-i686-RELEASE/libCppUnitLite.a

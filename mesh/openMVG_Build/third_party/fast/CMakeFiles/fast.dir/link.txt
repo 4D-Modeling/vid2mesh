@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../Linux-i686-RELEASE/libfast.a  CMakeFiles/fast.dir/fast_10.c.o CMakeFiles/fast.dir/fast_11.c.o CMakeFiles/fast.dir/fast_12.c.o CMakeFiles/fast.dir/fast_9.c.o CMakeFiles/fast.dir/fast.c.o CMakeFiles/fast.dir/nonmax.c.o
-/usr/bin/ranlib ../../Linux-i686-RELEASE/libfast.a
