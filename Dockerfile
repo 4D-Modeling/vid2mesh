@@ -42,6 +42,9 @@ RUN git clone https://github.com/simonfuhrmann/mve.git
 WORKDIR /app/mve
 RUN make -j8
 
+# get those bips and baps working
+RUN apt-get install -y libglib2.0-0
+
 # Load the flask web application
 WORKDIR /app
 ADD app/ /app

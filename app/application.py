@@ -18,58 +18,6 @@ YOUR_API_TOKEN = "2ae3591a0811445f9c2449aeb7dcd29e"
 #url = "https://www.youtube.com/watch?v=46J5s3uS3S4"
 
 
-@application.route("/")
-def main():
-    return render_template("mainpage.html")
-
-
-@application.route("/", methods=['POST'])
-def main_post():
-
-    # Download youtube video
-    url = request.form['youtubeurl']
-    video = pafy.new(url)
-    best = video.getbest(preftype="mp4")
-    filename = best.download(filepath="/app/1_videos/youtubevideo." + best.extension)
-
-    # Covert youtube video to frames
-    video2frames("/app/1_videos/youtubevideo." + best.extension, 20, "2_frames/youtube_frames")
-
-    # Convert video frames to object frames
-    # YOLO
-
-    # Convert object frames to 3d model
-    # TODO: for every different folder in 3_object_frames, run this code with different output_clean
-    object_frames = "/app/3_object_frames/youtube_frames"
-    output_clean = "/app/4_models/youtube_output_mesh_clean.ply"
-    model(object_frames, output_clean)
-    
-    # Upload 3d model
-    # TODO: for every different model in 4_models, run this code with different output_clean
-    # TODO: Make html dynamic based on the number of models
-    model_url = upload(model_file=output_clean)
-    model_url_embed = model_url[0:8] + model_url[12:25] + model_url[28:] + "/embed"  # convert to embed link
-
-    if poll_processing_status(model_url):
-        print("MODEL UPLOADED")
-
-    return render_template("results.html", model_url_embed=model_url_embed)
-
-
-@application.route("/test")
-def test():
-    object_frames = "/app/2_frames"
-    output_clean = "/app/4_models/output_mesh_clean.ply"
-    return model(object_frames, output_clean)
-
-# run the app.
-if __name__ == "__main__":
-    # Setting debug to True enables debug output. This line should be
-    # removed before deploying a production app.
-    application.debug = True
-    application.run(host='0.0.0.0', port=80)
-
-
 # Upload model to SketchFab
 def _get_request_payload(data={}, files={}, json_payload=False):
         """Helper method that returns the authentication token and proper content
@@ -201,3 +149,54 @@ def poll_processing_status(model_url):
         'Stopped polling after too many retries or too many errors'
         return False
 
+
+@application.route("/")
+def main():
+    return render_template("mainpage.html")
+
+
+@application.route("/", methods=['POST'])
+def main_post():
+
+    # Download youtube video
+    url = request.form['youtubeurl']
+    video = pafy.new(url)
+    best = video.getbest(preftype="mp4")
+    filename = best.download(filepath="/app/1_videos/youtubevideo." + best.extension)
+
+    # Covert youtube video to frames
+    video2frames("/app/1_videos/youtubevideo." + best.extension, 20, "2_frames/youtube_frames")
+
+    # Convert video frames to object frames
+    # YOLO
+
+    # Convert object frames to 3d model
+    # TODO: for every different folder in 3_object_frames, run this code with different output_clean
+    object_frames = "/app/3_object_frames/youtube_frames"
+    output_clean = "/app/4_models/youtube_output_mesh_clean.ply"
+    #model(object_frames, output_clean)
+
+    # Upload 3d model
+    # TODO: for every different model in 4_models, run this code with different output_clean
+    # TODO: Make html dynamic based on the number of models
+    model_url = upload(model_file=output_clean)
+    model_url_embed = model_url[0:8] + model_url[12:25] + model_url[28:] + "/embed"  # convert to embed link
+
+    if poll_processing_status(model_url):
+        print("MODEL UPLOADED")
+
+    return render_template("results.html", model_url_embed=model_url_embed)
+
+
+@application.route("/test")
+def test():
+    object_frames = "/app/2_frames"
+    output_clean = "/app/4_models/output_mesh_clean.ply"
+    return model(object_frames, output_clean)
+
+# run the app.
+if __name__ == "__main__":
+    # Setting debug to True enables debug output. This line should be
+    # removed before deploying a production app.
+    application.debug = True
+    application.run(host='0.0.0.0', port=80)
