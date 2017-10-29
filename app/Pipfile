@@ -1,0 +1,41 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+
+
+[packages]
+
+awsebcli = "==3.12.0"
+blessed = "==1.14.2"
+botocore = "==1.7.36"
+cement = "==2.8.2"
+click = "==6.7"
+colorama = "==0.3.7"
+docker-py = "==1.7.2"
+dockerpty = "==0.4.1"
+docopt = "==0.6.2"
+docutils = "==0.14"
+flask = "==0.12.2"
+itsdangerous = "==0.24"
+"jinja2" = "==2.9.6"
+jmespath = "==0.9.3"
+markupsafe = "==1.0"
+opencv-python = "==3.3.0.10"
+pafy = "==0.5.3.1"
+pathspec = "==0.5.0"
+python-dateutil = "==2.6.1"
+pyyaml = "==3.12"
+requests = "*"
+semantic-version = "==2.5.0"
+tabulate = "==0.7.5"
+termcolor = "==1.1.0"
+wcwidth = "==0.1.7"
+websocket-client = "==0.44.0"
+werkzeug = "==0.12.2"
+youtube-dl = "*"

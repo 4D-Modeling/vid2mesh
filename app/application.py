@@ -4,6 +4,8 @@ import json
 import os
 from time import sleep
 import requests
+import subprocess
+import os
 
 from video2frames import video2frames
 from model import model
@@ -149,6 +151,44 @@ def poll_processing_status(model_url):
         'Stopped polling after too many retries or too many errors'
         return False
 
+###---------------------------------------------------------------------------------------
+def yolo(modelNo, inputDirectory, outputDirectory, confThresh):
+    ## Parameters
+    model = modelNo   # 1: YOLO
+                # 2: tiny-YOLO
+                #
+    # inputDirectory = "./input"
+    # outputDirectory = "./out3/"
+    # confThresh = 0.25   # Confidence rate threshols
+
+    # Create the output directory if does not exist
+    if not os.path.exists(outputDirectory):
+        os.makedirs(outputDirectory)
+
+    if model==1:
+        cfgFile = 'cfg/yolo.cfg'
+        dataFile = 'cfg/coco.data'
+        weightFile = 'yolo.weights'
+
+    elif model==2:
+        cfgFile = 'cfg/tiny-yolo-voc.cfg'
+        dataFile = 'cfg/voc.data'
+        weightFile = 'tiny-yolo-voc.weights'
+
+
+    # Run for all the jpg files in the input folder
+    for file in os.listdir(inputDirectory):
+        if file.endswith(".jpg"):
+            currentFile = os.path.join(inputDirectory, file)
+            print(currentFile)
+            # os.chdir()
+            command = ('./darknet','detector','test', dataFile, cfgFile, weightFile, currentFile,
+             '-outFolder', outputDirectory, '-thresh', str(confThresh))
+            p = subprocess.Popen(command)
+            p.wait()
+##----------------------------------------------------------------------------------------
+
+
 
 @application.route("/")
 def main():
@@ -168,7 +208,9 @@ def main_post():
     video2frames("/app/1_videos/youtubevideo." + best.extension, 20, "2_frames/youtube_frames")
 
     # Convert video frames to object frames
-    # YOLO
+    inputDirectory = "/app/2_frames/youtube_frames"
+    outputDirectory = "/app/3_object_frames/youtube_frames"
+    yolo(1, inputDirectory, outputDirectory, 0.3)
 
     # Convert object frames to 3d model
     # TODO: for every different folder in 3_object_frames, run this code with different output_clean
