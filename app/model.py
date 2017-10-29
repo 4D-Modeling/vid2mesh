@@ -5,22 +5,22 @@ import subprocess
 def model(object_frames, output_clean):
 
     print("Running openMVG_main_SfMInit_ImageListing")
-    output_dir = "/app/pipe_out"
+    output_dir = "/app/pipe_out/matches"
     os.chdir("/app/openMVG_Build/Linux-x86_64-RELEASE")  # 904.5?
-    p = subprocess.Popen(("./openMVG_main_SfMInit_ImageListing", "-i", object_frames, "-o", output_dir, "-f", "904", "-d", "/app/openMVG/src/openMVG/exif/sensor_width_database/sensor_width_camera_database.txt"))
+    p = subprocess.Popen(("./openMVG_main_SfMInit_ImageListing", "-i", object_frames, "-o", output_dir, "-d", "/app/openMVG/src/openMVG/exif/sensor_width_database/sensor_width_camera_database.txt"))
     p.wait()
     os.chdir("/app")
 
     print("Running openMVG_main_ComputeFeatures")
-    input_json = "/app/pipe_out/sfm_data.json"
-    output_dir = "/app/pipe_out/features"
+    input_json = "/app/pipe_out/matches/sfm_data.json"
+    output_dir = "/app/pipe_out/matches"
     os.chdir("/app/openMVG_Build/Linux-x86_64-RELEASE")
-    p = subprocess.Popen(("./openMVG_main_ComputeFeatures", "-i", input_json, "-o", output_dir))
+    p = subprocess.Popen(("./openMVG_main_ComputeFeatures", "-i", input_json, "-o", output_dir, "-n", "1"))
     p.wait()
     os.chdir("/app")
 
     print("Running openMVG_main_ComputeMatches")
-    input_json = "/app/pipe_out/sfm_data.json"
+    input_json = "/app/pipe_out/matches/sfm_data.json"
     output_matches = "/app/pipe_out/matches"
     os.chdir("/app/openMVG_Build/Linux-x86_64-RELEASE")
     p = subprocess.Popen(("./openMVG_main_ComputeMatches", "-i", input_json, "-o", output_matches))  # "-v", "1"
@@ -28,13 +28,18 @@ def model(object_frames, output_clean):
     os.chdir("/app")
 
     print("Running openMVG_main_IncrementalSfM")
-    input_json = "/app/pipe_out/sfm_data.json"
+    input_json = "/app/pipe_out/matches/sfm_data.json"
     input_matches = "/app/pipe_out/matches"
     output_reconstruction = "/app/pipe_out/sequential_reconstruction"
     os.chdir("/app/openMVG_Build/Linux-x86_64-RELEASE")
     p = subprocess.Popen(("./openMVG_main_IncrementalSfM", "-i", input_json, "-m", input_matches, "-o", output_reconstruction))
     p.wait()
     os.chdir("/app")
+
+
+    contents = os.listdir("/app/pipe_out")
+    contents2 = os.listdir("/app/pipe_out/matches")
+    contents3 = os.listdir("/app/pipe_out/sequential_reconstruction")
 
     print("Running openMVG_main_openMVG2MVE2")
     input_bin = "/app/pipe_out/sequential_reconstruction/sfm_data.bin"
@@ -44,7 +49,7 @@ def model(object_frames, output_clean):
     p.wait()
     os.chdir("/app")
 
-    return "hi"
+    return "{} {} {}".format(contents, contents2, contents3)
 
     print("Running dmrecon")
     input_dir = "/app/pipe_out/matches/MVE"
@@ -80,4 +85,4 @@ def model(object_frames, output_clean):
     p.wait()
     os.chdir("/app")
 
-    return "FINISHED"
+    return "finished"
