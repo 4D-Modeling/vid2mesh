@@ -20,12 +20,12 @@ YOUR_API_TOKEN = "2ae3591a0811445f9c2449aeb7dcd29e"
 def main():
     #Get Youtube Video
     #url = "https://www.youtube.com/watch?v=46J5s3uS3S4"
-
     #return "Main Page"
     return render_template("mainpage.html")
 
 @application.route("/", methods=['POST'])
 def main_post():
+
     url = request.form['youtubeurl']
     video = pafy.new(url)
     best = video.getbest(preftype="mp4")
