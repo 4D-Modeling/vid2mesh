@@ -165,25 +165,28 @@ def main_post():
     filename = best.download(filepath="/app/1_videos/youtubevideo." + best.extension)
 
     # Covert youtube video to frames
-    video2frames("/app/1_videos/youtubevideo." + best.extension, 20, "2_frames/youtube_frames")
+    #video2frames("/app/1_videos/youtubevideo." + best.extension, 20, "2_frames/youtube_frames")
 
     # Convert video frames to object frames
     # YOLO
 
     # Convert object frames to 3d model
     # TODO: for every different folder in 3_object_frames, run this code with different output_clean
-    object_frames = "/app/3_object_frames/youtube_frames"
-    output_clean = "/app/4_models/youtube_output_mesh_clean.ply"
+    #object_frames = "/app/3_object_frames/youtube_frames"
+    #object_frames = "/app/2_frames"
+    #output_clean = "/app/4_models/youtube_output_mesh_clean.ply"
     #model(object_frames, output_clean)
 
     # Upload 3d model
     # TODO: for every different model in 4_models, run this code with different output_clean
     # TODO: Make html dynamic based on the number of models
-    model_url = upload(model_file=output_clean)
-    model_url_embed = model_url[0:8] + model_url[12:25] + model_url[28:] + "/embed"  # convert to embed link
+    #model_url = upload(model_file=output_clean)
+    #model_url_embed = model_url[0:8] + model_url[12:25] + model_url[28:] + "/embed"  # convert to embed link
 
-    if poll_processing_status(model_url):
-        print("MODEL UPLOADED")
+    #if poll_processing_status(model_url):
+        #print("MODEL UPLOADED")
+
+    model_url_embed = "https://sketchfab.com/models/539a843bcac148fd9911a3aa28de040c/embed"
 
     return render_template("results.html", model_url_embed=model_url_embed)
 
