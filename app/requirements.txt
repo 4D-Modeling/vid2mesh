@@ -26,3 +26,4 @@ termcolor==1.1.0
 wcwidth==0.1.7
 websocket-client==0.44.0
 Werkzeug==0.12.2
+youtube-dl
