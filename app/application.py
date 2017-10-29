@@ -5,7 +5,6 @@ import os
 from time import sleep
 import requests
 import subprocess
-import os
 
 from video2frames import video2frames
 from model import model
@@ -165,6 +164,9 @@ def yolo(modelNo, inputDirectory, outputDirectory, confThresh):
     if not os.path.exists(outputDirectory):
         os.makedirs(outputDirectory)
 
+    if not os.path.exists(inputDirectory):
+        os.makedirs(inputDirectory)
+
     if model==1:
         cfgFile = 'cfg/yolo.cfg'
         dataFile = 'cfg/coco.data'
@@ -179,12 +181,14 @@ def yolo(modelNo, inputDirectory, outputDirectory, confThresh):
     # Run for all the jpg files in the input folder
     for file in os.listdir(inputDirectory):
         if file.endswith(".jpg"):
+            print("I'm here!")
             currentFile = os.path.join(inputDirectory, file)
             print(currentFile)
             # os.chdir()
             command = ('./darknet','detector','test', dataFile, cfgFile, weightFile, currentFile,
              '-outFolder', outputDirectory, '-thresh', str(confThresh))
             p = subprocess.Popen(command)
+            # p = subprocess.call(command)
             p.wait()
 ##----------------------------------------------------------------------------------------
 
@@ -205,13 +209,14 @@ def main_post():
     filename = best.download(filepath="/app/1_videos/youtubevideo." + best.extension)
 
     # Covert youtube video to frames
-    video2frames("/app/1_videos/youtubevideo." + best.extension, 20, "2_frames/youtube_frames")
+    #video2frames("/app/1_videos/youtubevideo." + best.extension, 20, "2_frames/youtube_frames")
 
     # Convert video frames to object frames
     inputDirectory = "/app/2_frames/youtube_frames"
     outputDirectory = "/app/3_object_frames/youtube_frames"
     yolo(1, inputDirectory, outputDirectory, 0.3)
 
+    """
     # Convert object frames to 3d model
     # TODO: for every different folder in 3_object_frames, run this code with different output_clean
     object_frames = "/app/3_object_frames/youtube_frames"
@@ -228,7 +233,8 @@ def main_post():
         print("MODEL UPLOADED")
 
     return render_template("results.html", model_url_embed=model_url_embed)
-
+    """
+    return os.listdir("/app/3_object_frames/youtube_frames")
 
 @application.route("/test")
 def test():
