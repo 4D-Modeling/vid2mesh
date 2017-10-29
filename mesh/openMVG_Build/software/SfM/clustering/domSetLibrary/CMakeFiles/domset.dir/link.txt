@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../../Linux-i686-RELEASE/libdomset.a  CMakeFiles/domset.dir/domset.cc.o
-/usr/bin/ranlib ../../../../Linux-i686-RELEASE/libdomset.a

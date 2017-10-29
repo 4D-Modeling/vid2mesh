@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../Linux-i686-RELEASE/libopenMVG_geometry.a  CMakeFiles/openMVG_geometry.dir/rigid_transformation3D_srt.cpp.o CMakeFiles/openMVG_geometry.dir/Similarity3.cpp.o CMakeFiles/openMVG_geometry.dir/half_space_intersection.cpp.o CMakeFiles/openMVG_geometry.dir/frustum.cpp.o CMakeFiles/openMVG_geometry.dir/Similarity3_Kernel.cpp.o CMakeFiles/openMVG_geometry.dir/box.cpp.o
-/usr/bin/ranlib ../../Linux-i686-RELEASE/libopenMVG_geometry.a
