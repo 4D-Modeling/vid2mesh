@@ -50,6 +50,9 @@ WORKDIR /app
 ADD app/ /app
 RUN pip install -r requirements.txt
 
+RUN rm /app/openMVG/src/openMVG/exif/sensor_width_database/sensor_width_camera_database.txt
+RUN mv sensor_width_camera_database.txt /app/openMVG/src/openMVG/exif/sensor_width_database/
+
 # Make port 80 available to the world outside this container
 EXPOSE 80
 
