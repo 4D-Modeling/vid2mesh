@@ -2,13 +2,9 @@ import piexif as piexif
 from flask import Flask, request, render_template
 import pafy
 import os
-<<<<<<< HEAD
 from time import sleep
 import requests
 import subprocess
-=======
->>>>>>> 3b875e290cf59007e2685489c4067e42adf6ed6d
-
 from video_download import too_small
 from video_preparation import downsample
 from model_create import create_model
@@ -18,7 +14,6 @@ from model_upload import upload, poll_processing_status
 # Set up our flask app. EB for AWS looks for 'application' by default
 application = Flask(__name__)
 
-<<<<<<< HEAD
 # SketchFab Constants
 SKETCHFAB_DOMAIN = 'sketchfab.com'
 SKETCHFAB_API_URL = 'https://api.{}/v3'.format(SKETCHFAB_DOMAIN)
@@ -199,10 +194,6 @@ def yolo(modelNo, inputDirectory, outputDirectory, confThresh):
             p.wait()
 ##----------------------------------------------------------------------------------------
 
-
-=======
->>>>>>> 3b875e290cf59007e2685489c4067e42adf6ed6d
-
 @application.route("/")
 def main():
     return render_template("mainpage.html")
@@ -293,7 +284,6 @@ def main_post():
     for model_directory in os.listdir(models_directory):
         model_file = os.path.join(models_directory, model_directory, model_name)
 
-<<<<<<< HEAD
     # Covert youtube video to frames
     #video2frames("/app/1_videos/youtubevideo." + best.extension, 20, "2_frames/youtube_frames")
 
@@ -302,28 +292,26 @@ def main_post():
     outputDirectory = "/app/3_object_frames/youtube_frames"
     yolo(1, inputDirectory, outputDirectory, 0.3)
 
-    """
+
     # Convert object frames to 3d model
     # TODO: for every different folder in 3_object_frames, run this code with different output_clean
     object_frames = "/app/3_object_frames/youtube_frames"
     output_clean = "/app/4_models/youtube_output_mesh_clean.ply"
     #model(object_frames, output_clean)
-=======
-        model_url = upload(model_file=model_file)  # upload 3d model to SketchFab
+    model_url = upload(model_file=model_file)  # upload 3d model to SketchFab
 
-        if poll_processing_status(model_url):
-            print("MODEL UPLOADED")
+    if poll_processing_status(model_url):
+        print("MODEL UPLOADED")
 
-        model_url_embed = model_url[0:8] + model_url[12:25] + model_url[28:] + "/embed"  # convert to embed link
->>>>>>> 3b875e290cf59007e2685489c4067e42adf6ed6d
+    model_url_embed = model_url[0:8] + model_url[12:25] + model_url[28:] + "/embed"  # convert to embed link
 
-        # TODO: Make html dynamic based on the number of models
+    # TODO: Make html dynamic based on the number of models
 
     if model_url_embed is None:
         return "No models were able to be generated from that video"  # TODO: make error page
 
     return render_template("results.html", model_url_embed=model_url_embed)
-    """
+
     return os.listdir("/app/3_object_frames/youtube_frames")
 
 @application.route("/test")
