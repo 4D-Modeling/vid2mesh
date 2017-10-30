@@ -5,6 +5,7 @@ import os
 from time import sleep
 import requests
 import subprocess
+
 from video_download import too_small
 from video_preparation import downsample
 from model_create import create_model
@@ -306,6 +307,14 @@ def main_post():
     model_url_embed = model_url[0:8] + model_url[12:25] + model_url[28:] + "/embed"  # convert to embed link
 
     # TODO: Make html dynamic based on the number of models
+        model_url = upload(model_file=model_file)  # upload 3d model to SketchFab
+
+        if poll_processing_status(model_url):
+            print("MODEL UPLOADED")
+
+        model_url_embed = model_url[0:8] + model_url[12:25] + model_url[28:] + "/embed"  # convert to embed link
+
+        # TODO: Make html dynamic based on the number of models
 
     if model_url_embed is None:
         return "No models were able to be generated from that video"  # TODO: make error page
